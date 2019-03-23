@@ -1,0 +1,5 @@
+% To save a workspace to a MATLAB file, type:
+save filename.mat
+
+% To load a MATLAB file, type:
+load filename.mat

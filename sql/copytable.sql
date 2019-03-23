@@ -1,0 +1,3 @@
+SELECT field_name_1, field_name_2, ...
+INTO destination_table_name
+FROM source_table_name;

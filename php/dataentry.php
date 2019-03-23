@@ -1,0 +1,18 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>data entry</title>
+	</head>
+	<body>
+		<form action="logout.php">
+			Field 1: <input name="field1" type="text">
+			Field 2: <input name="field2" type="text">
+			Field 3: <input name="field3" type="text">
+			<input name="submit" type="submit">
+		</form>
+	</body>
+</html>
