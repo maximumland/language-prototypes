@@ -1,0 +1,133 @@
+# cspell:ignore nosetests pycache pytest venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# IDE and Editor
+.vscode/
+.idea/
+.project
+.classpath
+.c9/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+.cache/
+.caches/
+
+# OS files
+Thumbs.db
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+$RECYCLE.BIN/
+
+# Node.js / npm
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.egg-info/
+
+# C/C++
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.dSYM/
+.depend
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+Debug/
+Release/
+
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Go
+/bin/
+/pkg/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+
+# Ruby
+Gemfile.lock
+.bundle/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*~
+.~*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Keep important files
+!.gitkeep
+!.env.example
+!.env.sample
